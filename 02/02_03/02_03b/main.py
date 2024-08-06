@@ -9,3 +9,7 @@ NUM_OF_STUDENTS = len(student_pet_count_list)
 print(NUM_OF_STUDENTS)
 
 # average = sum / number of items
+total_pets = sum(student_pet_count_list)
+print('Total Pets:', total_pets)
+avg_pets = total_pets/NUM_OF_STUDENTS
+print('Average:', avg_pets)
